@@ -9,7 +9,8 @@ end
 board = [" ", " ", " "]
 # code your input_to_index and move method here!
 def input_to_index(input)
-  input = (6) - (1)
+  input = gets.strip
+  index = input_to_index(input)
 end
   
 def update_array_at_with(board, index, value)
