@@ -13,7 +13,7 @@ def input_to_index(string)
   string.to_i - 1
 end
   
-def update_array_at_with(board, index, value)
+def move(board, index, value)
   board[index] = value
 end
 
