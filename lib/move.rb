@@ -8,8 +8,7 @@ end
 
 board = [" ", " ", " "]
 # code your input_to_index and move method here!
-input = gets.strip
-index = input_to_index(input)
+
 def input_to_index(input)
   string.to_i - 1
 end
